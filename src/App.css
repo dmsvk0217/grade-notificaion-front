@@ -1,0 +1,113 @@
+body {
+  background-color: #f0f8ff;
+  font-family: "Arial", sans-serif;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header-text {
+  text-align: center;
+}
+.content-text {
+  font-size: 14px;
+}
+
+.signup-form {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+button {
+  flex: 1;
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #2186c8;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+.input-button {
+  margin-left: 5px;
+}
+
+.checked-button {
+  display: flex;
+}
+
+.checked-text {
+  flex: 3;
+  margin: 0;
+}
+
+.checked-icon {
+  flex: 1;
+}
+
+.done-row {
+  display: flex;
+}
+
+.done-texts {
+  flex: 4;
+}
+
+.done-text {
+  flex: 4;
+  text-align: center;
+  margin: 0;
+  font-size: 13px;
+}
+
+.done-icon {
+  flex: 1;
+}
+
+label {
+  display: block;
+}
+
+input {
+  flex: 3;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #2186c8;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
